@@ -16,3 +16,33 @@
   </div>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Auto Resize with Flexbox</title>
+    <style>
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .flex-item {
+            flex: 1 1 300px; /* 图片最小宽度为300px */
+            margin: 10px;
+        }
+        .responsive-img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item">
+            <img src="wxewm.jpg" alt="Responsive Image" class="responsive-img">
+        </div>
+    </div>
+</body>
+</html>
